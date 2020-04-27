@@ -1,0 +1,22 @@
+{
+    "name": "gaiterjones/module-rabbitmq",
+    "description": "Rabbit MQ Messaging Example",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "paj@gaiterjones.com",
+            "name": "Gaiterjones"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gaiterjones\\RabbitMQ\\": ""
+        }
+    }
+}
